@@ -1,0 +1,14 @@
+{
+    "extends": "../tsconfig.base.json",
+    "references": [],
+    "compilerOptions": {
+        "target": "es6",
+        "baseUrl": "./",
+        "rootDir": "./",
+        "outDir": "dist"
+    },
+    "include": [
+        "../backup-server/src/models/User.ts",
+        "src/**/*.ts"
+    ]
+}
