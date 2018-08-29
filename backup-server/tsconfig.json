@@ -8,7 +8,6 @@
         "outDir": "dist"
     },
     "include": [
-        "../backup-server/src/models/User.ts",
         "src/**/*.ts"
     ]
 }
