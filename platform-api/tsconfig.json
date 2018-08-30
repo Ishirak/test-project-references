@@ -6,7 +6,6 @@
     "compilerOptions": {
         "target": "es6",
         "baseUrl": "./",
-        "rootDir": "./",
         "outDir": "dist"
     },
     "include": [
