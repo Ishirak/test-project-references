@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"backup-server@file:../backup-server":
+"@vp/backup-server@file:../backup-server":
   version "1.0.0"
 
 typescript@^3.0.1:

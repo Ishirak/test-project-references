@@ -1,7 +1,8 @@
 {
-  "name": "project-references",
+  "name": "@vp/backup-server",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "tsc": "tsc -b"

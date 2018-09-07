@@ -8,10 +8,7 @@
         "target": "es6",
         "baseUrl": "./",
         "rootDir": "src",
-        "outDir": "dist",
-        "paths": {
-            "backup-server/*": ["../backup-server/src/*"]
-        }
+        "outDir": "dist"
     },
     "include": [
         "src/**/*.ts"
