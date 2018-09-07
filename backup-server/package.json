@@ -1,12 +1,12 @@
 {
-  "name": "project-references",
+  "name": "backup-server",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "dist/index.js",
+  "private": true,
   "scripts": {
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc"
   },
   "devDependencies": {
-    "typescript": "^3.0.1"
+    "typescript": "^3.0.3"
   }
 }

@@ -1,3 +1,3 @@
-import { printBank } from './print/bank';
+import * as bs from 'backup-server/models/User';
 
-printBank();
+bs.printUser({firstName: 'Michal'});

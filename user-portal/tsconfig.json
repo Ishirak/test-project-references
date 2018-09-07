@@ -1,18 +1,20 @@
 {
     "extends": "../tsconfig.base.json",
     "references": [
-        { "path": "../backup-server" },
-        { "path": "../platform-api" }
+        { "path": "../backup-server" }
     ],
     "compilerOptions": {
         "target": "es6",
-        "baseUrl": "./",
+        
+        "rootDir": "src",
         "outDir": "dist",
+
+        "baseUrl": "./",
         "paths": {
             "backup-server/*": ["../backup-server/src/*"]
         }
     },
     "include": [
-        "src/**/*.ts"
+        "src"
     ]
 }

@@ -3,10 +3,10 @@
     "references": [],
     "compilerOptions": {
         "target": "es6",
-        "baseUrl": "./",
+        "rootDir": "src",
         "outDir": "dist"
     },
     "include": [
-        "src/**/*.ts"
+        "src"
     ]
 }

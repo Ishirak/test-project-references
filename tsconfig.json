@@ -2,7 +2,6 @@
     "files": [],
     "references": [
         { "path": "./backup-server" },
-        { "path": "./platform-api" },
         { "path": "./user-portal" }
     ]
 }

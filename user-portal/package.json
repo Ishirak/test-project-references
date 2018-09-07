@@ -1,12 +1,16 @@
 {
-  "name": "project-references",
+  "name": "user-portal",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "dist/index.js",
+  "private": true,
   "scripts": {
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc --noEmit",
+    "start": "rm -rf dist && rm -rf ../backup-server/dist && tsc -b && yarn && node dist/index.js"
+  },
+  "dependencies": {
+    "backup-server": "file:../backup-server"
   },
   "devDependencies": {
-    "typescript": "^3.0.1"
+    "typescript": "^3.0.3"
   }
 }
