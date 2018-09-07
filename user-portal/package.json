@@ -4,13 +4,17 @@
   "main": "dist/index.js",
   "private": true,
   "scripts": {
-    "tsc": "tsc --noEmit",
-    "start": "rm -rf dist && rm -rf ../backup-server/dist && tsc -b && yarn && node dist/index.js"
+    "build-backup-server": "cd ../backup-server && yarn && tsc",
+    "install-packages-in-user-portal": "yarn",
+    "build-user-portal": "tsc -b",
+    "run-user-portal": "node dist/index.js",
+    "start": "npm-run-all -s build-backup-server install-packages-in-user-portal build-user-portal run-user-portal"
   },
   "dependencies": {
     "backup-server": "file:../backup-server"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.3",
     "typescript": "^3.0.3"
   }
 }
