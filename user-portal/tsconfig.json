@@ -8,11 +8,6 @@
         
         "rootDir": "src",
         "outDir": "dist",
-
-        "baseUrl": "./",
-        "paths": {
-            "backup-server/*": ["../backup-server/src/*"]
-        }
     },
     "include": [
         "src"

@@ -1,3 +1,14 @@
-import * as bs from 'backup-server/models/User';
+import { User } from 'backup-server';
+import { printUser } from 'backup-server';
 
-bs.printUser({firstName: 'Michal'});
+
+interface MyUser extends User {
+    age: number;
+}
+
+const user: MyUser = {
+    firstName: 'Johnny',
+    age: 20,
+}
+
+printUser(user);
