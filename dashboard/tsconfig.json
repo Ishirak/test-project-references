@@ -1,12 +1,11 @@
 {
     "extends": "../tsconfig.base.json",
     "references": [
-        { "path": "../backup-server" },
-        { "path": "../platform-api" }
+        { "path": "../print-server" },
+        { "path": "../utils" }
     ],
     "compilerOptions": {
         "target": "es6",
-        "baseUrl": "./",
         "rootDir": "src",
         "outDir": "dist"
     },

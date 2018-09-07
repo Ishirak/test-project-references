@@ -1,8 +1,8 @@
 {
     "files": [],
     "references": [
-        { "path": "./backup-server" },
-        { "path": "./platform-api" },
-        { "path": "./user-portal" }
+        { "path": "./print-server" },
+        { "path": "./utils" },
+        { "path": "./dashboard" }
     ]
 }

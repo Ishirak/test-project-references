@@ -1,5 +1,5 @@
 {
-  "name": "project-references",
+  "name": "@test-pr/dashboard",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
@@ -7,7 +7,8 @@
     "tsc": "tsc -b"
   },
   "dependencies": {
-    "@vp/backup-server": "file:../backup-server"
+    "@test-pr/print-server": "^1.0.0",
+    "@test-pr/utils": "^1.0.0"
   },
   "devDependencies": {
     "typescript": "^3.0.1"
